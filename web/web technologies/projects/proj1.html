@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylep1.css">
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <main>
+        <section class="container">
+            <form action="index.php" method="post">
+                <label for="Username"><b>Username:</b></label>
+                <input type="text" id="Username" required maxlength="20"><br>
+                <label for="Password"><b>Password:</b></label>
+                <input type="password" id="Password" required minlength="8" maxlength="15"><br>
+                <label><b>Gender:</b></label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br>
+                <label for="Email"><b>Email:</b></label>
+                <input type="email" id="Email" required><br>
+                <label for="Mobile"><b>Mobile number:</b></label>
+                <input type="tel" id="Mobile" pattern="[0-9]{10}" placeholder="Enter your mobile number" required><br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">&copy; Copyrights Reserved</div>
+        <p>Created by Uday sankar</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+    display: inline-block;
+    border: 2px;
+    flex-wrap: wrap-reverse;
+    
+}
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color: rgb(174, 196, 32);
+}
+#box3{
+    background-color: rgb(197, 39, 39);
+}
+#box4{
+    background-color: rgb(10, 136, 18);
+}
